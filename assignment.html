@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First WebPage</title>
+  </head>
+  <body>
+    <div style="background-color: green; color: white;">
+        <h1 style="text-align: center;">My First WebPage</h1>
+    </div>
+
+    <a href="#webpage-contents" style="color: green;"> Webpage Contents</a>
+
+    <a href="#information-table" style="color: green;">Information Table</a>
+
+    <a href="#contact-form" style="color: green;"> Contact Form</a>
+    <br />
+    <br />
+    <img
+      src="images/sun.jpg"
+      alt="A beautiful sunset"
+      width="1000"
+      height="500"
+    />
+    <br /><br />
+    <p>
+      This is a sample paragraph describing the content of the webpage. It
+      explains the purpose of the page and provides some basic information about
+      what users can expect to find
+    </p>
+    <br /><br />
+    <a href="https://www.techyjaunt.com/" target="_blank"> Visit TechyJaunt </a>
+
+    <div id="webpage-contents">
+      <h3>Webpage Contents</h3>
+      <ul>
+        <li>Introduction</li>
+        <li>Table of Information</li>
+        <li>Contact Form</li>
+      </ul>
+      <br /><br />
+    </div>
+
+    <div id="information-table">
+      <h4>Information Table</h4>
+      <table border="1" cellpadding="10">
+        <tr>
+          <td>Item</td>
+          <td>Description</td>
+          <td>Quantity</td>
+        </tr>
+        <tr>
+          <td>Pens</td>
+          <td>Blue Ink Pens</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Notebooks</td>
+          <td>Spiral-bound Notebooks</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Markers</td>
+          <td>Permanent Markers</td>
+          <td>2</td>
+        </tr>
+      </table>
+      <br />
+      <br />
+    </div>
+
+    <div id="contact-form">
+      <h4>Contact Form</h4>
+      <form>
+        <label>Name:</label>
+        <input type="text" />
+        <br />
+        <br />
+
+        <label>Email:</label>
+        <input type="email" />
+        <br />
+        <br />
+
+        <label>Password:</label>
+        <input type="password" />
+        <br />
+        <br />
+        <label>Gender:</label>
+        <input type="radio" id="male" name="male" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="female" value="female" />
+        <label for="female">Female</label>
+        <br />
+        <br />
+
+        <label for="Subscribe">Subscribe :</label>
+        <input type="checkbox" id="Subscribe" name="Subscribe" />
+        <label for="Subscribe"> Yes, I want to subscribe</label>
+        <br />
+        <br />
+
+        <label>Number of Items:</label>
+        <input type="number" />
+        <br />
+        <br />
+
+        <label>Date:</label>
+        <input type="date" />
+        <br />
+        <br />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="7" cols="50"></textarea>
+        <br />
+        <br />
+
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
